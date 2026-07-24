@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MA Mathla'ul Anwar Gisting</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f7f9fc; color: #333; line-height: 1.6; }
+    
+    header {
+      background: linear-gradient(135deg, #0a7d2b, #1db954);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.2rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+
+    nav {
+      background: #0a7d2b;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+    
+    section {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    section h2 {
+      color: #0a7d2b;
+      margin-bottom: 15px;
+      border-left: 4px solid #1db954;
+      padding-left: 10px;
+    }
+
+    .jurusan {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: #e9f9ef;
+      padding: 15px;
+      border-radius: 10px;
+      border-left: 4px solid #0a7d2b;
+    }
+
+    footer {
+      background: #0a7d2b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1db954;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .btn:hover { background: #0a7d2b; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Madrasah Aliyah Mathla'ul Anwar Gisting</h1>
+    <p>Unggul dalam Prestasi, Berakhlakul Karimah, Berwawasan Islam</p>
+  </header>
+
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#jurusan">Jurusan</a>
+    <a href="#kegiatan">Kegiatan</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <div class="container">
+    
+    <section id="profil">
+      <h2>Tentang Kami</h2>
+      <p>
+        Madrasah Aliyah Mathla'ul Anwar Gisting adalah lembaga pendidikan Islam tingkat menengah 
+        yang berkomitmen mencetak generasi Qur'ani, cerdas, dan berakhlak mulia. 
+        Berlokasi di Gisting, Kabupaten Tanggamus, Lampung.
+      </p>
+      <p><b>Visi:</b> Mewujudkan lulusan yang beriman, berilmu, beramal, dan berprestasi.</p>
+      <p><b>Misi:</b> Menyelenggarakan pendidikan berbasis Al-Qur'an, pembinaan karakter, dan pengembangan potensi siswa.</p>
+    </section>
+
+    <section id="jurusan">
+      <h2>Jurusan / Program</h2>
+      <div class="jurusan">
+        <div class="card">
+          <h3>IPA</h3>
+          <p>Fokus pada sains, matematika, dan persiapan PTN. Dilengkapi lab komputer & praktikum.</p>
+        </div>
+        <div class="card">
+          <h3>IPS</h3>
+          <p>Fokus pada ilmu sosial, ekonomi, dan kepemimpinan. Banyak kegiatan organisasi siswa.</p>
+        </div>
+        <div class="card">
+          <h3>Keagamaan</h3>
+          <p>Pendalaman Al-Qur'an, Hadits, Fiqih, dan Bahasa Arab untuk bekal dakwah & kuliah.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kegiatan">
+      <h2>Kegiatan Siswa</h2>
+      <ul>
+        <li>Tahfidz & Tadarus Al-Qur'an setiap pagi</li>
+        <li>Ekstrakurikuler: Pramuka, Paskibra, Hadroh, Olahraga, PMR</li>
+        <li>Pesantren Ramadhan & Peringatan Hari Besar Islam</li>
+        <li>Lomba akademik, olimpiade, dan lomba antar madrasah</li>
+      </ul>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak Kami</h2>
+      <p><b>Alamat:</b> Jl. Raya Gisting, Kabupaten Tanggamus, Lampung</p>
+      <p><b>Email:</b> mamathlaulanwargisting@gmail.com</p>
+      <p><b>Telepon:</b> 08xx-xxxx-xxxx</p>
+      <a href="https://wa.me/628xxxxxxxxxx" class="btn">Hubungi via WhatsApp</a>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 MA Mathla'ul Anwar Gisting. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
